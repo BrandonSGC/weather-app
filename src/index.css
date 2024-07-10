@@ -1,16 +1,19 @@
 :root {
-  --white : #FFF;
-  --primary: #F59E0B;
+  --white: #fff;
+  --primary: #f5740b;
+  --primary-hover: #df6a0a;
 }
 html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Outfit', sans-serif;
-  background-image: url('/bg_clima.jpg');
-  background-size: cover;
+  font-family: "Outfit", sans-serif;
+  background-image: url("/bg-lightning.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
   height: 100vh;
   color: var(--white);
   font-size: 2rem;
+  overflow: hidden;
 }
