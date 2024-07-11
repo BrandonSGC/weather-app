@@ -15,5 +15,10 @@ body {
   height: 100vh;
   color: var(--white);
   font-size: 2rem;
-  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 }

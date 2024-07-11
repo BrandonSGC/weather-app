@@ -5,6 +5,10 @@
   gap: 2rem;
 }
 
+.field {
+  gap: 1rem;
+}
+
 .form input[type="text"],
 .form select {
   padding: 1rem;

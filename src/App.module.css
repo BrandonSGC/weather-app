@@ -8,6 +8,9 @@
   width: 95%;
   max-width: 100rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
 }
 
 @media (min-width: 768px) {
